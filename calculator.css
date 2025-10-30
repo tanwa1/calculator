@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.mainBody {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    height: 480px;
+    width: 400px;
+}
+
+.numberOperatorArea {
+    display: flex;
+    height: 250px;
+    width: 350px;
+}
+
+.numberArea {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    width: 100%;
+    gap: 5px;
+}
+
+.operatorAreas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.operatorButtons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    gap: 3px;
+    margin: 1px;
+}
+
+.miscButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    margin: 1px;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+}
+
+.outputArea,
+.inputArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    border: 1px solid black;
+}
+
